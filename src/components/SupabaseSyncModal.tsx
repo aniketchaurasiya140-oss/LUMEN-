@@ -74,14 +74,14 @@ export const SupabaseSyncModal: React.FC<SupabaseSyncModalProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h3 className="font-serif text-lg font-medium text-white">
-                  Supabase Backend Configuration
+                  Cloud Vault & Database Configuration
                 </h3>
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-400 border border-emerald-800 font-bold">
-                  CONNECTED
+                  ACTIVE
                 </span>
               </div>
               <p className="text-xs text-[#a09789] mt-0.5">
-                Real-time PostgreSQL database & authentication engine.
+                Real-time cloud database persistence, storage & authentication status.
               </p>
             </div>
           </div>
@@ -222,7 +222,7 @@ export const SupabaseSyncModal: React.FC<SupabaseSyncModalProps> = ({
               className="px-4 py-2 bg-[#2b6e4e] hover:bg-[#23583e] text-white rounded-lg text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer disabled:opacity-50"
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>{isSeeding ? 'Seeding...' : 'Seed 10 Master Plates to Supabase'}</span>
+              <span>{isSeeding ? 'Seeding...' : 'Seed Master Plates to Cloud Vault'}</span>
             </button>
           </div>
         </div>
