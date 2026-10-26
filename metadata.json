@@ -1,0 +1,6 @@
+{
+  "name": "LUMEN — Photography Portfolio Manager",
+  "description": "Editorial photography portfolio suite with RAW archive management, AI curatorial sequencing, client proofing, and role-based studio access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
