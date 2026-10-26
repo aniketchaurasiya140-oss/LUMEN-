@@ -13,8 +13,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="margin: 0; background-color: #141211;">
+    <div id="root">
+      <div style="min-height: 100vh; background-color: #141211; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: -apple-system, sans-serif; color: #eae5de;">
+        <div style="width: 44px; height: 44px; background: #c45a2c; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 20px; color: #fff; margin-bottom: 16px; box-shadow: 0 4px 14px rgba(196,90,44,0.3);">
+          L
+        </div>
+        <div style="font-size: 16px; font-weight: 500; letter-spacing: 0.5px; color: #fff;">LUMEN</div>
+        <div style="font-size: 10px; font-family: monospace; letter-spacing: 2px; color: #8a8175; text-transform: uppercase; margin-top: 4px;">PHOTOGRAPHY SUITE</div>
+        <div style="width: 140px; height: 3px; background: #26211d; border-radius: 2px; margin-top: 24px; overflow: hidden; position: relative;">
+          <div style="width: 50%; height: 100%; background: #c45a2c; border-radius: 2px; position: absolute; animation: lumenPulse 1.2s ease-in-out infinite;"></div>
+        </div>
+        <style>
+          @keyframes lumenPulse {
+            0% { left: -50%; width: 30%; }
+            50% { left: 25%; width: 60%; }
+            100% { left: 100%; width: 30%; }
+          }
+        </style>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
